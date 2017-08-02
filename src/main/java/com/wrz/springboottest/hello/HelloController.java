@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("get/{id}")
     public String get(@PathVariable String id){
+        System.out.println("收到:"+id);
         return "hello spring boot:"+id;
     }
 }
