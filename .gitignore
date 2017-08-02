@@ -21,8 +21,4 @@ build/
 nbbuild/
 dist/
 nbdist/
-<<<<<<< HEAD
 .nb-gradle/
-=======
-.nb-gradle/
->>>>>>> first commit
