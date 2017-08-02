@@ -10,7 +10,7 @@ public class HelloController {
     @RequestMapping("get/{id}")
     public String get(@PathVariable String id){
         //需要使用add吗
-        System.out.println("收到:"+id);
+        System.out.println("到:"+id);
         return "hello spring boot:"+id;
     }
 }
