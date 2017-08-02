@@ -8,3 +8,6 @@ springboottest.....</br>
 
 更新</br>
 $ git pull --rebase origin master</br>
+
+克隆</br>
+$ git clone git@github.com:winkey4986/springboottest.git</br>
